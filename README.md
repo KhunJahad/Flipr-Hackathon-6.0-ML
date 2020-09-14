@@ -14,6 +14,8 @@ with a Time-series prediction model. Using the Foreign Visitors predicted by the
 need to calculate the Covid Cases on 1st Oct 2020 for every City in the test data. . The
 output file 02 should contain only City and the respective Covid Cases on 1st October.
 
+APPROACH TASK-1 :
+
 For the first task, we started out with some feature engineering and tried many standard Machine learning algorithms and decided it would be best  to use Fully Connected Neural Network / Deep Neural Net for this regression Problem.
 
 Feature Engineering included dropping whole columns named:  City, Type, Population (2011) and State columns, as they were irregular in both, test set and train set. Initially, we considered replacing State and Type with categorical values, but that didn't work because of the presence of uncommon values in them.
